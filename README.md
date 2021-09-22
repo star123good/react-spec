@@ -1,12 +1,12 @@
 <div align="center">
 
-[![Spectrum](./public/img/media.png)](https://spectrum.chat)
+[![Spectrum](./public/img/media.png)]
 
 ### Simple, powerful online communities.
 
 </div>
 
-This is the main monorepo codebase of [Spectrum](https://spectrum.chat). Every single line of code that's not packaged into a reusable library is in this repository.
+This is the main monorepo codebase of [Spectrum]. Every single line of code that's not packaged into a reusable library is in this repository.
 
 ## What is Spectrum?
 
@@ -18,11 +18,9 @@ It is difficult to grow, manage and measure the impact of online communities. Co
 
 > "[Spectrum] will take the place that Reddit used to have a long time ago for communities (especially tech) to freely share ideas and interact. Except realtime and trolling-free."
 >
-> \- [Guillermo Rauch (@rauchg)](https://twitter.com/rauchg/status/930946768841228288)
 
 ### Status
 
-Spectrum has been in full-time development since March 2017 and is [part of GitHub since November 2018](https://spectrum.chat/spectrum/general/spectrum-is-joining-github~1d3eb8ee-4c99-46c0-8daf-ca35a96be6ce). See our current priorities and what we are working on in the [main project board](https://github.com/withspectrum/spectrum/projects/23).
 
 <div align="center">
   <img height="50px" src="public/img/cluster-1.svg" />
@@ -59,19 +57,18 @@ That being said, this codebase isn't your typical open source project because it
 
 #### Contributions and discussion guidelines
 
-All conversations and communities on Spectrum agree to GitHub's [Community Guidelines](https://help.github.com/en/github/site-policy/github-community-guidelines) and [Acceptable Use Policies](https://help.github.com/en/github/site-policy/github-acceptable-use-policies). This code of conduct also applies to all conversations that happen within our contributor community here on GitHub. We expect discussions in issues and pull requests to stay positive, productive, and respectful. Remember: there are real people on the other side of that screen!
+This code of conduct also applies to all conversations that happen within our contributor community here on GitHub. We expect discussions in issues and pull requests to stay positive, productive, and respectful. Remember: there are real people on the other side of that screen!
 
 #### Reporting a bug or discussing a feature idea
 
-If you found a technical bug on Spectrum or have ideas for features we should implement, the issue tracker is the best place to share your ideas. Make sure to follow the issue template and you should be golden! ([click here to open a new issue](https://github.com/withspectrum/spectrum/issues/new))
+If you found a technical bug on Spectrum or have ideas for features we should implement, the issue tracker is the best place to share your ideas. Make sure to follow the issue template and you should be golden! 
 
 #### Fixing a bug or implementing a new feature
 
 If you find a bug on Spectrum and open a PR that fixes it we'll review it as soon as possible to ensure it matches our engineering standards.
 
-If you want to implement a new feature, open an issue first to discuss what it'd look like and to ensure it fits in our roadmap and plans for the app (see [the main project board](https://github.com/withspectrum/spectrum/projects/23) for planned and currently ongoing work).
+If you want to implement a new feature, open an issue first to discuss what it'd look like and to ensure it fits in our roadmap and plans for the app (see [the main project board] for planned and currently ongoing work).
 
-If you want to contribute but are unsure to start, we have [a "good first issue" label](https://github.com/withspectrum/spectrum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) which is applied to newcomer-friendly issues. Take a look at [the full list of good first issues](https://github.com/withspectrum/spectrum/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and pick something you like! There is also [an "open" channel in the Spectrum community on Spectrum](https://spectrum.chat/spectrum/open) (how meta), if you run into troubles while trying to contribute that is the best place to talk to us.
 
 Want to fix a bug or implement an agreed-upon feature? Great, jump to the [local setup instructions](#first-time-setup)!
 
@@ -114,8 +111,6 @@ spectrum/
 
 As you can see we follow a loose naming scheme based on ancient Greek, Roman, and philosophical figures that are somewhat related to what our servers do:
 
-- Hyperion: (/haɪˈpɪəriən/) is one of the twelve Titan children of Gaia and Uranus.
-
 </details>
 
 #### Code Style
@@ -136,15 +131,9 @@ We run Prettier on-commit, which means you can write code in whatever style you 
 The first step to running Spectrum locally is downloading the code by cloning the repository:
 
 ```sh
-git clone git@github.com:withspectrum/spectrum.git
+git clone <repo url>
 ```
 
-If you get `Permission denied` error using `ssh` refer [here](https://help.github.com/articles/error-permission-denied-publickey/)
-or use `https` link as a fallback.
-
-```sh
-git clone https://github.com/withspectrum/spectrum.git
-```
 
 #### Installation
 
@@ -242,10 +231,3 @@ yarn run dev:web
   <img height="200px" src="public/img/connect.svg" />	
 </div>
 
-## GitHub
-
-Spectrum is now part of GitHub. For code of conduct, please see [GitHub's Community Guidelines](https://help.github.com/en/github/site-policy/github-community-guidelines) and [Acceptable Use Policies](https://help.github.com/en/github/site-policy/github-acceptable-use-policies).
-
-## License
-
-BSD 3-Clause, see the [LICENSE](./LICENSE) file.
